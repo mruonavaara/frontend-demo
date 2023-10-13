@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3>My Todolist</h3>
+      <h3>My New Todolist</h3>
       <input type="text" placeholder="Date" name="date" value={todo.date} onChange={inputChanged}/>
       <input type="text" placeholder="Description" name="desc" value={todo.desc} onChange={inputChanged}/>
       <button onClick={addTodo}>Add</button>
